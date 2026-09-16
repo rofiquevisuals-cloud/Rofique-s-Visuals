@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181D26" />
+      <stop offset="100%" stop-color="#0B0D10" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg4)" />
+
+  <!-- Commercial velocity lines -->
+  <g stroke="#6CC8FF" stroke-width="2" opacity="0.3">
+    <line x1="0" y1="260" x2="1200" y2="340" />
+    <line x1="0" y1="360" x2="1200" y2="440" stroke="#F2F2F2" stroke-width="3" opacity="0.6" />
+    <line x1="0" y1="460" x2="1200" y2="540" />
+  </g>
+
+  <!-- Central optical trigger polygon -->
+  <polygon points="600,240 760,400 600,560 440,400" fill="#13171F" stroke="#6CC8FF" stroke-width="2" />
+  <circle cx="600" cy="400" r="40" fill="#6CC8FF" opacity="0.8" />
+  <circle cx="600" cy="400" r="70" fill="none" stroke="#F2F2F2" stroke-width="1.5" stroke-dasharray="8 8" />
+
+  <text x="140" y="150" fill="#8C929B" font-family="'Space Grotesk', monospace" font-size="14" letter-spacing="3">04 // COMMERCIAL VIDEO</text>
+  <text x="1060" y="150" fill="#6CC8FF" text-anchor="end" font-family="'Space Grotesk', monospace" font-size="14" letter-spacing="2">BROADCAST &amp; OTT</text>
+  <text x="140" y="660" fill="#F2F2F2" font-family="'Space Grotesk', sans-serif" font-size="28" font-weight="700" letter-spacing="2">ZERO LATENCY</text>
+  <text x="140" y="695" fill="#8C929B" font-family="'Inter', sans-serif" font-size="14" letter-spacing="1">PREMIERE PRO · DAVINCI RESOLVE · SOUND DESIGN</text>
+  <text x="1060" y="660" fill="#8C929B" text-anchor="end" font-family="'Space Grotesk', monospace" font-size="16">00:00:45:00</text>
+</svg>
